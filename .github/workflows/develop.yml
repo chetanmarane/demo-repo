@@ -16,5 +16,6 @@ jobs:
 
       - name: Use Secret in Pipeline
         run: echo "My secret is ${{ secrets.MOB_NU }}"
+        run: echo "Hello world"
         env:
           MY_SECRET: ${{ secrets.MOB_NU }}
